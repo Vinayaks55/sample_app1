@@ -1,13 +1,19 @@
+
+
 class StaticPagesController < ApplicationController
+
+#layout false
+
+
   def home
-  	#redirect_to("http:www.google.com")
+  	
   end
 
   def help
   end
 
-  def lynda
-  	redirect_to("http://www.google.com")
+  def about
+  	#redirect_to("http://www.google.com")
   end
 
 end

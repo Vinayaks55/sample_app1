@@ -13,6 +13,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'guard-rspec'
+  gem 'capybara', '2.5.0'
   #gem 'guard-spork'
   #gem 'childprocess'
   #gem 'spork'
@@ -27,7 +28,7 @@ group :assets do
 end
 
 group :test do
-  gem 'capybara'
+  #gem 'capybara'
   gem 'factory_girl_rails', '4.1.0'
   ##gem 'database_cleaner', '0.7.0'
   # gem 'launchy', '2.1.0'
